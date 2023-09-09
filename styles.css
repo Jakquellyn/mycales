@@ -1,0 +1,29 @@
+/* CSS untuk mengatur tampilan situs web Calestial Universe */
+
+/* Pusatkan teks horizontal dan vertikal */
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #0070c9, #ffffff); /* Gradasi dari biru ke putih */
+    margin: 0; /* Hapus margin halaman */
+}
+
+/* Kecilkan gambar profil */
+.profile-img {
+    max-width: 150px; /* Ubah sesuai dengan kebutuhan Anda */
+    height: auto;
+}
+
+/* Gaya tombol sosial media */
+.social-btn {
+    color: #fff;
+    background-color: #0070c9; /* Warna latar belakang */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #0056a9; /* Warna latar belakang saat dihover */
+}

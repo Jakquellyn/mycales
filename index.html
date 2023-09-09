@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calestial World</title>
+
+    <!-- Tambahkan referensi ke Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha2/dist/css/bootstrap.min.css">
+
+    <!-- Tambahkan CSS khusus untuk Linktree style -->
+    <style>
+        /* Latar belakang dengan gradasi */
+        body {
+            background: linear-gradient(90deg, #0070c9, #ffffff);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container Linktree */
+        .linktree-container {
+            max-width: 100%; /* Sesuaikan dengan lebar perangkat */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'Fira Sans', sans-serif; /* Font dari Google Fonts */
+        }
+
+        /* Gaya tombol tautan */
+        .link-btn {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #0070c9;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        /* Efek Hover pada tombol tautan */
+        .link-btn:hover {
+            background-color: #0056a9;
+            transform: scale(1.1); /* Perbesar tombol saat dihover */
+        }
+
+        /* Animasi melayang pada gambar profil untuk perangkat berukuran besar */
+@media (min-width: 768px) {
+    .profile-img {
+        max-width: 150px; /* Sesuaikan ukuran gambar profil sesuai keinginan Anda */
+        animation: float 5s ease-in-out infinite; /* Animasi melayang selama 5 detik */
+    }
+}
+
+
+
+        /* Footer selalu di bagian bawah */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Animasi melayang pada gambar profil */
+        .profile-img {
+    max-width: 200px; /* Sesuaikan ukuran maksimum gambar profil sesuai dengan preferensi Anda */
+    width: 100%; /* Pastikan gambar memenuhi lebar kontainernya */
+    height: auto; /* Biarkan tinggi gambar disesuaikan secara proporsional */
+}
+
+
+        /* Animasi melayang */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px); /* Melayang ke atas 10px pada titik tengah animasi */
+            }
+        }
+    </style>
+
+    <!-- Tambahkan link ke Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="bg-dark text-light text-center py-4">
+        <h1>Calestial World</h1>
+    </header>
+
+    <main class="linktree-container my-5">
+        <section class="profile">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                    <img src="https://telegra.ph/file/4db972b915441b84898df.jpg" alt="Calestial" class="img-fluid rounded-circle profile-img">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="text-center">Calestial In My Life</h2>
+                    <a href="https://saweria.co/calestial" class="link-btn">Saweria</a>
+                    <a href="https://chat.whatsapp.com/BC8LlVRpKUM8DRdKmVJ065" class="link-btn">Grup Calestial</a>
+                    <a href="https://instagram.com/ward_d_syah?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="link-btn">Instagram</a>
+                    <a href="https://wa.me/6283117436733" class="link-btn">Owner</a>
+                    <!-- Tambahkan lebih banyak tautan jika diperlukan -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-2">
+        <p>&copy; 2023 Ward D Syah</p>
+    </footer>
+
+    <!-- Tambahkan referensi ke Bootstrap JavaScript (Jika diperlukan) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
